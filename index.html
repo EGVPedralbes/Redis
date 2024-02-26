@@ -1,11 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Datos</title>
+    </head>
+    <body>
+        <h1>Formulario de Datos</h1>
+        <form id="dataForm" method="POST" action="http://localhost:3000/submit" enctype="application/x-www-form-urlencoded">
+            <label for="joke">joke</label>
+            <input type="text" name="joke" id="joke">
+            <label for="username">username</label>
+            <input type="text" name="username" id="username">
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+    </html>
